@@ -1,0 +1,16 @@
+---
+title: "Lecture 1: Introduction to MCCM"
+---
+
+Here some examples on how to create a plot in `ggplot`:
+
+```{r chunk_no_1, warning=FALSE}
+library(ggplot2)
+library(dplyr, warn.conflicts = FALSE)
+
+cars %>%
+  filter(speed > 4) %>%
+  ggplot() +
+  geom_line(aes(x = speed, y = dist), color = 'red') +
+  theme_classic()
+```

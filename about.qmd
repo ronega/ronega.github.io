@@ -1,9 +1,17 @@
 ---
-title: "About"
+title: "Main Page"
 ---
 
-About this site
+Here I would like so information about my webpage.
 
-```{r}
-1 + 1
-```
+$$
+\frac{1}{2x^2_{ij}} + \sqrt{t^{high}-t^{low}}
+$$
+
+Be **careful with** *text* formatting:
+
+<center>
+![](pics/Screenshot_1.png)
+</center>
+
+

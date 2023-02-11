@@ -1,9 +1,37 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "STAT133",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Main Page",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Here I would like so information about my webpage.\n\\[\n\\frac{1}{2x^2_{ij}} + \\sqrt{t^{high}-t^{low}}\n\\]\nBe careful with text formatting:"
+  },
+  {
+    "objectID": "lectures/Lecture_1.html",
+    "href": "lectures/Lecture_1.html",
+    "title": "Lecture 1: Introduction to MCCM",
+    "section": "",
+    "text": "Here some examples on how to create a plot in ggplot:\n\nlibrary(ggplot2)\nlibrary(dplyr, warn.conflicts = FALSE)\n\ncars %>%\n  filter(speed > 4) %>%\n  ggplot() +\n  geom_line(aes(x = speed, y = dist), color = 'red') +\n  theme_classic()"
+  },
+  {
+    "objectID": "lectures/Lecture_2.html#getting-up",
+    "href": "lectures/Lecture_2.html#getting-up",
+    "title": "Basic Commands",
+    "section": "Getting up",
+    "text": "Getting up\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "lectures/Lecture_2.html#going-to-sleep",
+    "href": "lectures/Lecture_2.html#going-to-sleep",
+    "title": "Basic Commands",
+    "section": "Going to sleep",
+    "text": "Going to sleep"
+  },
+  {
+    "objectID": "lectures/Lecture_2.html#code-example-from-guide",
+    "href": "lectures/Lecture_2.html#code-example-from-guide",
+    "title": "Basic Commands",
+    "section": "Code Example from Guide",
+    "text": "Code Example from Guide\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nReturn\n\n\n\nhttps://ronega.github.io"
   }
 ]

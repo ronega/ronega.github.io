@@ -3,12 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Website"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Example of Title"
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - section: "PBHLTH"
+        contents:
+          - lectures/Lecture_1.qmd
+          - lectures/Lecture_2.qmd
+      - section: "Layout"
+        contents:
+          - layout-jupyter.qmd
 
 format:
   html:
@@ -17,4 +23,3 @@ format:
     toc: true
 
 editor: visual
-
