@@ -5,6 +5,7 @@ project:
 website:
   title: "Example of Title"
   sidebar:
+    logo: "pics/logo.png"
     style: "docked"
     search: false
     contents:

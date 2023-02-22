@@ -1,6 +1,9 @@
 ---
 title: "Lecture 1: Introduction to MCCM"
+toc: true
 ---
+
+# Part 1
 
 Here some examples on how to create a plot in `ggplot`:
 
@@ -14,3 +17,11 @@ cars %>%
   geom_line(aes(x = speed, y = dist), color = 'red') +
   theme_classic()
 ```
+
+### Small comment here
+
+Don't forget to save rendered file
+
+# Part 2
+
+How to add picture to the right part of your text? Answer is pretty simple. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa vitae tortor condimentum lacinia quis vel eros. Fermentum posuere urna nec tincidunt praesent. At risus viverra adipiscing at in tellus. Turpis nunc eget lorem dolor sed. Vitae purus faucibus ornare suspendisse sed. Pharetra vel turpis nunc eget lorem dolor sed. Donec enim diam vulputate ut pharetra sit. Risus pretium quam vulputate dignissim suspendisse in. Ultrices mi tempus imperdiet nulla malesuada. Sem fringilla ut morbi tincidunt augue. ![](../pics/Screenshot_1.png){style="float: right;" fig-alt="Hex logo that says \"Data Science in a Box\"" fig-align="right" width="250"} Massa massa ultricies mi quis hendrerit dolor magna eget. Eu facilisis sed odio morbi quis commodo odio. Sed augue lacus viverra vitae congue eu. Pretium lectus quam id leo in vitae turpis. Lectus magna fringilla urna porttitor. Laoreet non curabitur gravida arcu ac tortor dignissim. Volutpat ac tincidunt vitae semper quis lectus.Massa massa ultricies mi quis hendrerit dolor magna eget.Massa massa ultricies mi quis hendrerit dolor magna eget.Massa massa ultricies mi quis hendrerit dolor magna eget.

@@ -4,7 +4,6 @@ author: "Lecture 2"
 format: 
   revealjs:
     footer: <https://ronega.github.io>
-
 ---
 
 ## Code Example from Guide

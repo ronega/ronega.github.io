@@ -13,5 +13,3 @@ Be **careful with** *text* formatting:
 <center>
 ![](pics/Screenshot_1.png)
 </center>
-
-
